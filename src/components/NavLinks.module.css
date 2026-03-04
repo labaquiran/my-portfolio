@@ -3,12 +3,28 @@ a {
   text-decoration: none;
 }
 
-.navLinks {
-  display: flex;
-  gap: 1rem;
-  justify-content: end;
+a.active {
+  text-decoration: underline;
 }
 
-.navLinks > a:hover {
-  text-decoration: underline;
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+.home {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.pages {
+  display: flex;
+  gap: 1rem;
+}
+
+.pages > a:hover {
+  scale: 1.1;
+  transition: scale 0.2s ease-in-out;
 }
