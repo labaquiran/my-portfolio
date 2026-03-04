@@ -1,0 +1,14 @@
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+}
+
+.navLinks > a:hover {
+  text-decoration: underline;
+}
