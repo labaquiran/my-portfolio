@@ -10,9 +10,38 @@ function NavLinks() {
         </NavLink>
       </div>
       <div className={styles.pages}>
-        <NavLink to="/about" className={({ isActive }) => isActive ? styles.active : ""}>About</NavLink>
-        <NavLink to="/projects" className={({ isActive }) => isActive ? styles.active : ""}>Projects</NavLink>
-        <NavLink to="/services" className={({ isActive }) => isActive ? styles.active : ""}>Services</NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) => (isActive ? styles.active : "")}
+        >
+          About
+        </NavLink>
+
+        <NavLink
+          to="/projects"
+          className={({ isActive }) => (isActive ? styles.active : "")}
+        >
+          Projects
+        </NavLink>
+
+        <NavLink
+          to="/services"
+          className={({ isActive }) => (isActive ? styles.active : "")}
+        >
+          Services
+        </NavLink>
+
+        <div className={styles.contactContainer}>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) => (
+              isActive ? styles.active : "",
+              styles.contact
+            )}
+          >
+            Contact
+          </NavLink>
+        </div>
       </div>
     </nav>
   );

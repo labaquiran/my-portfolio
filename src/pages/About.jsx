@@ -1,9 +1,10 @@
-import Header from "../components/Header";
+import styles from "./About.module.css";
+import selfImg from "../assets/self-img.jpg";
 
 function About() {
   return (
-    <section id="about">
-      <h2>About Me</h2>
+    <section id="about" className={styles.about}>
+      <img src={selfImg} alt="Self" className={styles.selfImg} />
       <p>
         Hello! I'm a passionate web developer with experience in building
         dynamic and responsive websites. I enjoy working with modern
