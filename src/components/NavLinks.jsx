@@ -24,13 +24,6 @@ function NavLinks() {
           Projects
         </NavLink>
 
-        <NavLink
-          to="/services"
-          className={({ isActive }) => (isActive ? styles.active : "")}
-        >
-          Services
-        </NavLink>
-
         <div className={styles.contactContainer}>
           <NavLink
             to="/contact"
