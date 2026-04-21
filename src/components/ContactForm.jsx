@@ -20,7 +20,7 @@ function ContactForm() {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className={styles.contactForm}>
       <div className={styles.field}>
-        <label htmlFor="name">Name:</label>
+        <label htmlFor="name">Name</label>
         <input
           type="text"
           id="name"
@@ -30,7 +30,7 @@ function ContactForm() {
       </div>
 
       <div className={styles.field}>
-        <label htmlFor="email">Email:</label>
+        <label htmlFor="email">Email</label>
         <input
           type="email"
           id="email"
@@ -40,7 +40,7 @@ function ContactForm() {
       </div>
 
       <div className={styles.field}>
-        <label htmlFor="subject">Subject:</label>
+        <label htmlFor="subject">Subject</label>
         <input
           type="text"
           id="subject"
@@ -50,7 +50,7 @@ function ContactForm() {
       </div>
 
       <div className={styles.field}>
-        <label htmlFor="message">Message:</label>
+        <label htmlFor="message">Message</label>
         <textarea
           id="message"
           name="message"

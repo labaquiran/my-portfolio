@@ -1,0 +1,39 @@
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 49px 0;
+  background: linear-gradient(0, #007ea7, #fff);
+}
+
+.projects h2 {
+  font-family: "Gelasio", serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007ea7;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projectList p {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.25rem;
+  text-align: left;
+  color: #007ea7;
+}
+
+@media (min-width: 1024px) {
+  .projects {
+    min-height: 80vh;
+  }
+
+  .projectList {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+}

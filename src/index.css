@@ -7,14 +7,37 @@ body {
 :root {
   font-family: "Inter", sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("/fonts/FiraSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Meddon";
+  src: url("/fonts/Meddon-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bitcount Single";
+  src: url("/fonts/BitcountSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Bitcount Prop Single";
+  src: url("/fonts/BitcountPropSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Gelasio";
+  src: url("/fonts/Gelasio-VariableFont_wght.ttf") format("truetype");
 }

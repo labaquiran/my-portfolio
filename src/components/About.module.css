@@ -1,0 +1,38 @@
+.about {
+  margin: auto;
+  text-align: center;
+  padding: 49px 0;
+}
+
+.about h2 {
+  font-family: "Gelasio", serif;
+  color: #007ea7;
+}
+
+.content p {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.25rem;
+  text-align: left;
+  color: #007ea7;
+}
+
+.selfImg {
+  width: 500px;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content p {
+    max-width: 580px;
+  }
+
+  .selfImg {
+    width: 580px;
+    height: 475px;
+    object-fit: contain;
+  }
+}

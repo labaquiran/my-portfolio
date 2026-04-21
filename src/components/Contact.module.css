@@ -1,0 +1,30 @@
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 48px 0;
+  background-color: #007ea7;
+}
+
+.contactMsg {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.contactMsg h2 {
+  color: white;
+  font-family: "Gelasio", serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .contactSection {
+    flex-direction: row;
+    justify-content: center;
+    padding: 48px;
+  }
+}

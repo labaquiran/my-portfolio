@@ -10,23 +10,13 @@ function NavLinks() {
         </NavLink>
       </div>
       <div className={styles.pages}>
-        <NavLink
-          to="/about"
-          className={({ isActive }) => (isActive ? styles.active : "")}
-        >
-          About
-        </NavLink>
+        <NavLink to="#about">About</NavLink>
 
-        <NavLink
-          to="/projects"
-          className={({ isActive }) => (isActive ? styles.active : "")}
-        >
-          Projects
-        </NavLink>
+        <NavLink to="#projects">Projects</NavLink>
 
         <div className={styles.contactContainer}>
           <NavLink
-            to="/contact"
+            to="#contact"
             className={({ isActive }) => (
               isActive ? styles.active : "",
               styles.contact

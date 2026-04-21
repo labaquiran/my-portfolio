@@ -1,5 +1,6 @@
 .hero {
   display: flex;
+  background-color: #007ea7;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -7,19 +8,34 @@
   text-align: center;
 }
 
+.hero h1 {
+  font-size: 3rem;
+  font-family: "Bitcount Prop Single", monospace;
+  margin: 0;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 1.25rem;
+  font-family: "Bitcount Single", monospace;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
 .contactBtn {
+  font-family: "Fira Sans", sans-serif;
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 1.2rem;
   color: #fff;
-  background-color: #007bff;
+  background-color: #003249;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .contactBtn:hover {
-  background-color: #0056b3;
+  background-color: #003249;
 }
 
 .socialLinks {

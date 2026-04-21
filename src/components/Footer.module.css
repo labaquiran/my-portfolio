@@ -1,6 +1,10 @@
 .footer {
-  background-color: #333;
+  background-color: #007ea7;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1rem;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid #fff;
 }

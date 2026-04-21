@@ -10,7 +10,7 @@ function Hero() {
   return (
     <section className={styles.hero}>
       <h1>Hi, I'm Lorenzo</h1>
-      <p>Design ~ Development ~ Animation</p>
+      <h2>Design ~ Development ~ Animation</h2>
 
       <NavLink to="/contact" className={styles.contactBtn}>
         Get in Touch
