@@ -3,13 +3,13 @@ import styles from "./NavLinks.module.css";
 
 function NavLinks() {
   return (
-    <nav className={styles.navLinks}>
+    <nav className={styles.headerNav}>
       <div>
         <NavLink to="/" className={styles.home}>
           LA
         </NavLink>
       </div>
-      <div className={styles.pages}>
+      <div className={styles.navLinks}>
         <NavLink to="#about">About</NavLink>
 
         <NavLink to="#projects">Projects</NavLink>

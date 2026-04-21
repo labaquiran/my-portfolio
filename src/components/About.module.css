@@ -1,7 +1,7 @@
 .about {
   margin: auto;
   text-align: center;
-  padding: 49px 0;
+  padding: 48px 2rem;
 }
 
 .about h2 {
@@ -12,21 +12,26 @@
 .content p {
   font-family: "Fira Sans", sans-serif;
   font-size: 1.25rem;
-  text-align: left;
+  text-align: justify;
   color: #007ea7;
 }
 
 .selfImg {
-  width: 500px;
+  width: 100%;
 }
 
 @media (min-width: 1024px) {
+  .about {
+    padding: 49px 0;
+  }
+
   .content {
     display: flex;
     justify-content: center;
   }
 
   .content p {
+    text-align: left;
     max-width: 580px;
   }
 

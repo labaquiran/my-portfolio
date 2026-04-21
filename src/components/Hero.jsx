@@ -9,11 +9,11 @@ import githubIcon from "../assets/icons/github.svg";
 function Hero() {
   return (
     <section className={styles.hero}>
-      <h1>Hi, I'm Lorenzo</h1>
+      <h1>It's Alive!</h1>
       <h2>Design ~ Development ~ Animation</h2>
 
-      <NavLink to="/contact" className={styles.contactBtn}>
-        Get in Touch
+      <NavLink to="#contact" className={styles.contactBtn}>
+        Get In Touch
       </NavLink>
 
       <div className={styles.socialLinks}>

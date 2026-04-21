@@ -2,8 +2,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 49px 0;
+  padding: 2rem;
   background: linear-gradient(0, #007ea7, #fff);
+  min-height: 80vh;
 }
 
 .projects h2 {
@@ -28,7 +29,7 @@
 
 @media (min-width: 1024px) {
   .projects {
-    min-height: 80vh;
+    padding: 49px 0;
   }
 
   .projectList {

@@ -1,5 +1,5 @@
 a {
-  color: #61dafb;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -7,35 +7,21 @@ a.active {
   text-decoration: underline;
 }
 
-.navLinks {
+.headerNav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 2rem;
+  margin: 0.25rem 1rem;
 }
 
 .home {
   font-family: "Meddon", cursive;
   color: #ffffff;
   font-size: 2.5rem;
-  font-weight: bold;
 }
 
-.pages {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.pages > a {
-  font-family: "Fira Sans", sans-serif;
-  text-transform: uppercase;
-  color: #ccdbdc;
-}
-
-.pages > a:hover {
-  scale: 1.1;
-  transition: scale 0.2s ease-in-out;
+.navLinks {
+  display: none;
 }
 
 .contactContainer > a {
@@ -55,4 +41,23 @@ a.active {
   background-color: transparent;
   cursor: pointer;
   color: #ffffff;
+}
+
+@media (min-width: 1024px) {
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .navLinks > a {
+    font-family: "Fira Sans", sans-serif;
+    text-transform: uppercase;
+    color: #ccdbdc;
+  }
+
+  .navLinks > a:hover {
+    scale: 1.1;
+    transition: scale 0.2s ease-in-out;
+  }
 }
