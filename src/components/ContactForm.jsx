@@ -6,14 +6,15 @@ function ContactForm() {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
   const onSubmit = (data) => {
-    send(process.env.REACT_APP_EMAILJS_SERVICE_ID, "contact_form", data, {
-      publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+    send(import.meta.env.VITE_EMAILJS_SERVICE_ID, "contact_form", data, {
+      publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
     }).then((result) => {
-      console.log(result.text);
+      reset();
     });
   };
 
