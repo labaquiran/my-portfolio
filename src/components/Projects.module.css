@@ -33,7 +33,6 @@
   }
 
   .projectList {
-    flex-direction: row;
     justify-content: center;
     gap: 40px;
   }
