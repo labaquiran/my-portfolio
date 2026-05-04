@@ -10,20 +10,20 @@ function NavLinks() {
         </NavLink>
       </div>
       <div className={styles.navLinks}>
-        <NavLink to="#about">About</NavLink>
+        <a href="#about">About</a>
 
-        <NavLink to="#projects">Projects</NavLink>
+        <a href="#projects">Projects</a>
 
         <div className={styles.contactContainer}>
-          <NavLink
-            to="#contact"
+          <a
+            href="#contact"
             className={({ isActive }) => (
               isActive ? styles.active : "",
               styles.contact
             )}
           >
             Contact
-          </NavLink>
+          </a>
         </div>
       </div>
     </nav>

@@ -12,9 +12,9 @@ function Hero() {
       <h1>It's Alive!</h1>
       <h2>Design ~ Development ~ Animation</h2>
 
-      <NavLink to="#contact" className={styles.contactBtn}>
+      <a href="#contact" className={styles.contactBtn}>
         Get In Touch
-      </NavLink>
+      </a>
 
       <div className={styles.socialLinks}>
         <Link

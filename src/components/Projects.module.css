@@ -14,6 +14,25 @@
   color: #007ea7;
 }
 
+.categories {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.categories a {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #007ea7;
+  transition: color 0.3s ease;
+}
+
+.categories a.active {
+  color: #023047;
+  font-weight: bold;
+}
+
 .projectList {
   display: flex;
   flex-direction: column;
