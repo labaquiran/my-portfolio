@@ -42,7 +42,7 @@ function Projects() {
           Animation
         </a>
       </div>
-      {activeCategory === "Design" && (
+      {/* {activeCategory === "Design" && (
         <div className={styles.projectList}>
           <iframe
             style={{ border: "1px solid rgba(0, 0, 0, 0.1)" }}
@@ -66,7 +66,7 @@ function Projects() {
             allowfullscreen
           ></iframe>
         </div>
-      )}
+      )} */}
       {activeCategory === "Development" && (
         <div className={styles.projectList}>
           <p>
