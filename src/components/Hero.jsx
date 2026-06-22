@@ -10,7 +10,7 @@ function Hero() {
   return (
     <section className={styles.hero}>
       <h1>It's Alive!</h1>
-      <h2>Design ~ Development ~ Animation</h2>
+      <h2>Development & Animation</h2>
 
       <a href="#contact" className={styles.contactBtn}>
         Get In Touch

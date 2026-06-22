@@ -1,9 +1,9 @@
 import { NavLink } from "react-router";
-import styles from "./NavLinks.module.css";
+import styles from "./NavBar.module.css";
 import { useState } from "react";
 import clsx from "clsx";
 
-function NavLinks() {
+export default function NavBar() {
   const [navMenuIsOpen, setNavMenuIsOpen] = useState(false);
 
   const handleMenuBtn = () => setNavMenuIsOpen((prev) => !prev);
@@ -65,5 +65,3 @@ function NavLinks() {
     </nav>
   );
 }
-
-export default NavLinks;

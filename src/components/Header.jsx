@@ -1,10 +1,10 @@
-import NavLinks from "./NavLinks";
+import NavBar from "./NavBar";
 import styles from "./Header.module.css";
 
 function Header() {
   return (
     <header className={styles.header}>
-      <NavLinks />
+      <NavBar />
     </header>
   );
 }

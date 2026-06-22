@@ -30,8 +30,9 @@ li {
   top: 0;
   left: 0;
   margin: 0;
+  padding: 100px 0 0 0;
   display: flex;
-  align-items: start;
+  align-items: center;
   gap: 1rem;
   font-size: 1.5rem;
   flex-direction: column;
@@ -48,6 +49,10 @@ li {
 
 .navLinks {
   display: none;
+}
+
+.contactContainer {
+  margin-top: 20px;
 }
 
 .contactContainer > a {
@@ -105,6 +110,9 @@ li {
 }
 
 @media (min-width: 768px) {
+  .navMenu {
+    display: none;
+  }
   .navLinks {
     display: flex;
     position: static;
@@ -127,9 +135,16 @@ li {
   .hamburgerMenuBtn {
     display: none;
   }
+
+  .contactContainer {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1024px) {
+  .navLinks {
+    font-size: 1rem;
+  }
 }
 
 @keyframes move-down-turn {
