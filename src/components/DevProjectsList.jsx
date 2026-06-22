@@ -26,7 +26,7 @@ export default function DevProjectsList() {
       title: "Panay Architect Builders",
       coverImg: coverConstruction,
       link: "https://panayarchitectsbuilders.com/",
-      tags: ["Wordpress", "Elementor"],
+      tags: ["Wordpress", "Astra"],
     },
     {
       key: "Movie App",

@@ -12,12 +12,16 @@
 .content p {
   font-family: "Fira Sans", sans-serif;
   font-size: 1.25rem;
-  text-align: justify;
+  text-align: left;
   color: #007ea7;
 }
 
 .selfImg {
-  width: 100%;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #007ea7;
+  border-radius: 100px;
+  object-fit: cover;
 }
 
 @media (min-width: 1024px) {
@@ -28,6 +32,7 @@
   .content {
     display: flex;
     justify-content: center;
+    gap: 50px;
   }
 
   .content p {
@@ -36,8 +41,9 @@
   }
 
   .selfImg {
-    width: 580px;
-    height: 475px;
-    object-fit: contain;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50px;
   }
 }

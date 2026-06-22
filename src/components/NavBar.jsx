@@ -38,6 +38,17 @@ export default function NavBar() {
             </a>
           </li>
 
+          <li>
+            <a
+              href="/src/assets/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.fileCV}
+            >
+              My Resume
+            </a>
+          </li>
+
           <li className={styles.contactContainer}>
             <a
               onClick={handleMenuBtn}
@@ -56,6 +67,17 @@ export default function NavBar() {
         </li>
         <li>
           <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a
+            href="/src/assets/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.fileCV}
+          >
+            My Resume
+          </a>
         </li>
 
         <li className={styles.contactContainer}>
