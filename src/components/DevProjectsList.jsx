@@ -19,7 +19,7 @@ export default function DevProjectsList() {
       title: "Artbili",
       coverImg: coverArt,
       link: "https://www.artbili.com/",
-      tags: ["Next.js", "Stripe"],
+      tags: ["Next.js", "Stripe", "Supabase"],
     },
     {
       key: "panay-architect-builders",

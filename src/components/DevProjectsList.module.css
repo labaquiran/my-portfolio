@@ -46,6 +46,7 @@
 .cardDetails a {
   color: #ccdbdc;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .cardDetails a:hover {
