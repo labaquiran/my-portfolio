@@ -40,7 +40,7 @@ export default function NavBar() {
 
           <li>
             <a
-              href="/public/resume.pdf"
+              href={`${import.meta.env.VITE_SITE_URL}/resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.fileCV}
@@ -71,7 +71,7 @@ export default function NavBar() {
 
         <li>
           <a
-            href="/public/resume.pdf"
+            href={`${import.meta.env.VITE_SITE_URL}/resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.fileCV}
