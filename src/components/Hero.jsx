@@ -9,7 +9,7 @@ import githubIcon from "../assets/icons/github.svg";
 function Hero() {
   return (
     <section className={styles.hero}>
-      <h1>It's Alive!</h1>
+      <h1>I Like to Move It!</h1>
       <h2>Development & Animation</h2>
 
       <a href="#contact" className={styles.contactBtn}>

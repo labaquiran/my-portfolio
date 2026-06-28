@@ -3,6 +3,7 @@ import { Link } from "react-router";
 import { useState } from "react";
 import styles from "./Projects.module.css";
 import DevProjectsList from "./DevProjectsList";
+import AnimProjectsList from "./AnimProjectsList";
 
 function Projects() {
   const [activeCategory, setActiveCategory] = useState("Development");
@@ -33,13 +34,7 @@ function Projects() {
         </a>
       </div>
       {activeCategory === "Development" && <DevProjectsList />}
-      {activeCategory === "Animation" && (
-        <div className={styles.projectList}>
-          <p>
-            Animation projects will be displayed here. Please check back later.
-          </p>
-        </div>
-      )}
+      {activeCategory === "Animation" && <AnimProjectsList />}
     </section>
   );
 }

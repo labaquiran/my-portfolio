@@ -17,7 +17,12 @@ function About() {
           different companies. This portfolio here is in its early stages and
           showcases my recent projects (some are work in progress) and ideas
           that might change anytime. I hope to connect with fellow developers
-          and animators to create something great
+          and animators to create something great.
+          <br />
+          <br />
+          The Projects section also features some of my works from the Animation
+          Basics course that I took from Animation Mentor in 2025. I dream to
+          make feature film animations myself in the future.
         </p>
       </div>
     </section>
